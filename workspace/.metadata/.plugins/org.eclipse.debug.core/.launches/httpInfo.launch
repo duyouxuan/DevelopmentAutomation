@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/HtmlUnit/src/httpInfo.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="httpInfo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&amp;code=162411&amp;page=1&amp;per=100&amp;sdate=2017-08-01&amp;edate=2017-10-04 /html/body/table/tbody"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HtmlUnit"/>
+</launchConfiguration>

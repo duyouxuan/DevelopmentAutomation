@@ -1,0 +1,38 @@
+import org.openqa.selenium.By;  
+import org.openqa.selenium.WebDriver;  
+import org.openqa.selenium.WebElement;  
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;  
+  
+public class httpInfo {  
+  
+    /** 
+     * @param args 
+     */  
+    public static void main(String[] args) {
+    	args.length
+        // TODO Auto-generated method stub  
+        WebDriver driver=new HtmlUnitDriver();  
+        //打开百度首页 "http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&code=162411&page=1&per=100&sdate=2017-08-01&edate=2017-10-04" 
+        driver.get(args[0]);  
+        //打印页面标题  
+        //System.out.println("页面标题："+driver.getTitle());  
+        //根据id获取页面元素输入框  
+        WebElement search=driver.findElement(By.xpath("/html/body/table/tbody"));
+        String text = search.getText();
+        System.out.print(text);  
+        //在id=“kw”的输入框输入“selenium”  
+        //search.sendKeys("selenium");  
+        //根据id获取提交按钮  
+        //WebElement submit=driver.findElement(By.id("su"));  
+        //点击按钮查询  
+        //submit.click();  
+        //打印当前页面标题  
+        //System.out.println("页面标题："+driver.getTitle());  
+        //返回当前页面的url  
+        //System.out.println("页面url："+driver.getCurrentUrl());  
+        //返回当前的浏览器的窗口句柄  
+        //System.out.println("窗口句柄："+driver.getWindowHandle());  
+  
+    }  
+  
+}  
